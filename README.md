@@ -70,22 +70,6 @@ query userSessionProgress($username: String!) {
 }
 
 
-🕹️ Usage
-Clone the repository:
-
-git clone https://github.com/yourusername/LeetMetric.git
-Open index.html in your browser.
-
-Enter your LeetCode username.
-
-Click Search to fetch your progress stats.
-
-The page displays:
-
-Progress circles for Easy, Medium, and Hard
-
-Submission statistics cards
-
 ⚠️ Notes:
 
 Since LeetCode’s API doesn’t allow direct CORS access, this project uses:
