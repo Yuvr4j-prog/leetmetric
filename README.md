@@ -45,32 +45,7 @@ The app uses *HTML, CSS, and JavaScript* with *asynchronous API fetching* and *d
 
 
 
-## 🧮 GraphQL Query Example
-
-graphql
-query userSessionProgress($username: String!) {
-  allQuestionsCount {
-    difficulty
-    count
-  }
-  matchedUser(username: $username) {
-    submitStats {
-      acSubmissionNum {
-        difficulty
-        count
-        submissions
-      }
-      totalSubmissionNum {
-        difficulty
-        count
-        submissions
-      }
-    }
-  }
-}
-
-
-⚠️ Notes:
+## ⚠️ Notes:
 
 Since LeetCode’s API doesn’t allow direct CORS access, this project uses:
 https://cors-anywhere.herokuapp.com/
@@ -78,20 +53,20 @@ You may need to request access from that service before use.
 
 To deploy this project publicly, you can replace the proxy with your own backend proxy (Node.js or Flask).
 
-🖼️ Example Output
+## 🖼️ Example Output
 Difficulty	Example Visualization
 🟢 Easy	Circular progress showing solved/total
 🟡 Medium	Intermediate progress ring
 🔴 Hard	Lower completion ratio ring
 
-🎨 UI Highlights:
+## 🎨 UI Highlights:
 
 Responsive design built with flexbox
 Custom CSS conic gradients for circular progress
 Color-coded sections by difficulty
 Neat stat cards for clear readability
 
-💡 Future Enhancements:
+## 💡 Future Enhancements:
 
 Dark/light theme toggle
 User streak tracking and ranking
@@ -103,5 +78,5 @@ Yuvraj Bundela
 🌐 https://github.com/Yuvr4j-prog
 ✉️ yuuvrrajj@gmail.com
 
-🏷️ Tags
+## 🏷️ Tags
 LeetCode • GraphQL • JavaScript • Web App • Frontend Project • API Integration • Coding Dashboard
