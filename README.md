@@ -87,6 +87,7 @@ Progress circles for Easy, Medium, and Hard
 Submission statistics cards
 
 ⚠️ Notes:
+
 Since LeetCode’s API doesn’t allow direct CORS access, this project uses:
 https://cors-anywhere.herokuapp.com/
 You may need to request access from that service before use.
